@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Um Presente para Você</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="main-container">
+        <h1 id="instruction">Clique para receber o presente</h1>
+        
+        <div class="gift-container" id="gift-box">
+            <div class="gift-lid"></div>
+            <div class="gift-box-body"></div>
+        </div>
+
+        <div id="reveal-area" class="hidden">
+            <img id="birthday-photo" src="assets/foto.jpg" alt="Nossa Foto" class="photo">
+            <p class="celebration-text">🎉 Parabéns! 🎉</p>
+            <button id="next-page-btn" class="hidden">Ver o presente verdadeiro</button>
+        </div>
+
+        <audio id="bg-music" src="assets/musica.mp3" loop></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
