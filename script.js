@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
         revealArea.classList.remove('hidden');
         revealArea.style.opacity = '1';
 
-        // 4. After 3 seconds, show the button
+        // 4. After 5 seconds, show the button
         setTimeout(() => {
             nextBtn.classList.remove('hidden');
             nextBtn.style.display = 'block';
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 nextBtn.style.opacity = '1';
                 nextBtn.style.transition = 'opacity 1s';
             }, 10);
-        }, 3000);
+        }, 5000);
     });
 
     nextBtn.addEventListener('click', () => {
